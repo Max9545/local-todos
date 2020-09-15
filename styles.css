@@ -1,0 +1,70 @@
+body, html {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+button {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  border: solid 2px transparent;
+  margin-top: 15px;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: 300ms;
+}
+
+button:hover {
+  border-color: lightgray;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  padding: 5px;
+  width: 50%;
+}
+
+.wrapper {
+  background-color: white;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 15px;
+}
+
+.todo-items {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+  padding-top: 50px;
+  border-top: solid 2px lightgrey;
+  width: 100%;
+}
+
+.todo-items li {
+  background-color: lightgrey;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: 300ms;
+}
+
+.todo-items li:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.todo-items li:hover:after {
+  content: '✖️';
+  position: absolute;
+  right: 15px;
+}
