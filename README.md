@@ -14,6 +14,6 @@ A repo for M1 students to get more practice working with localStorage.
   - the user should see that task removed from view
   - on refresh, that task should not reappear
 
-  ## Considerations
-  - Which localStorage methods will you have to use to complete the above tasks?
-  - Think about how you will need to store multiple todo items and be able to save them in localStorage.
+## Considerations
+- Which localStorage methods will you have to use to complete the above tasks?
+- Think about how you will need to store multiple todo items and be able to save them in localStorage.
