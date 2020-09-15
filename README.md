@@ -2,6 +2,8 @@
 
 A repo for M1 students to get more practice working with localStorage.
 
+![local todos](./assets/todolist.png)
+
 ## Tasks
 
 -  When a user clicks the "Add Item" button: 
